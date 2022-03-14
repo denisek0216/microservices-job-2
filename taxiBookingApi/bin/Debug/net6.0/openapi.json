@@ -1,0 +1,83 @@
+{
+    "openapi":"3.0.2",
+    "info": {
+      "title":"Taxi Booking Api",
+      "version":"1.0"
+    },
+    "servers": [
+      {"url":"https://api.server.test/v1"}
+    ],
+    "paths": {
+        "/Bookings": {
+            "get": {
+                "description": "Get all bookings",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    },
+                    "404": {
+                        "description": "Bookings not found"
+                    }
+                }
+            },
+            "post": {
+                "description": "Add booking",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    },
+                    "201": {
+                        "description": "Booking created"
+                    },
+                    "404": {
+                        "description": "Invalid booking"
+                    }
+                }
+            }
+        },
+        "/Bookings/{id}": {
+            "get": {
+                "description": "Get booking by id",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    },
+                    "404": {
+                        "description": "Booking not found"
+                    }
+                }
+            },
+            "put": {
+                "description": "Update booking by id",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    },
+                    "400": {
+                        "description": "Invalid booking id provided"
+                    },
+                    "404": {
+                        "description": "Booking not found"
+                    },
+                    "204": {
+                        "description": "No booking found"
+                    }
+                }
+            },
+            "delete": {
+                "description": "Delete booking by id",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    },
+                    "404": {
+                        "description": "Booking not found"
+                    },
+                    "204": {
+                        "description": "Booking deleted"
+                    }
+                }
+            }
+        }
+    }
+  }

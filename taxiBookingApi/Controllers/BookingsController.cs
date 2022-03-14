@@ -10,7 +10,7 @@ using TaxiBookingApi.Models;
 
 namespace TaxiBookingApi.Controllers
 {
-    [Route("api/[Bookings]")]
+    [Route("api/Bookings")]
     [ApiController]
     public class BookingsController : ControllerBase
     {

@@ -1,11 +1,71 @@
 {
   "Version": 1,
-  "Hash": "Ft5OA2VT93hthiktlLs/sumskZzvMhalMHAfcVREgYI=",
+  "Hash": "kaOm4T+Nz5+rTH759X9ZsZnHrfUAFeAeEq/rF/t9CsM=",
   "Source": "taxiBookingApi",
   "BasePath": "_content/taxiBookingApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "taxiBookingApi\\wwwroot",
+      "Source": "taxiBookingApi",
+      "ContentRoot": "C:\\Users\\denK1\\OneDrive\\Desktop\\ms-training-workspace\\microservices-beginner-test\\microservices-job-2\\taxiBookingApi\\wwwroot\\",
+      "BasePath": "_content/taxiBookingApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\denK1\\OneDrive\\Desktop\\ms-training-workspace\\microservices-beginner-test\\microservices-job-2\\taxiBookingApi\\wwwroot\\index.html",
+      "SourceId": "taxiBookingApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denK1\\OneDrive\\Desktop\\ms-training-workspace\\microservices-beginner-test\\microservices-job-2\\taxiBookingApi\\wwwroot\\",
+      "BasePath": "_content/taxiBookingApi",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\denK1\\OneDrive\\Desktop\\ms-training-workspace\\microservices-beginner-test\\microservices-job-2\\taxiBookingApi\\wwwroot\\site.css",
+      "SourceId": "taxiBookingApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denK1\\OneDrive\\Desktop\\ms-training-workspace\\microservices-beginner-test\\microservices-job-2\\taxiBookingApi\\wwwroot\\",
+      "BasePath": "_content/taxiBookingApi",
+      "RelativePath": "site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\denK1\\OneDrive\\Desktop\\ms-training-workspace\\microservices-beginner-test\\microservices-job-2\\taxiBookingApi\\wwwroot\\site.js",
+      "SourceId": "taxiBookingApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denK1\\OneDrive\\Desktop\\ms-training-workspace\\microservices-beginner-test\\microservices-job-2\\taxiBookingApi\\wwwroot\\",
+      "BasePath": "_content/taxiBookingApi",
+      "RelativePath": "site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\site.js"
+    }
+  ]
 }
